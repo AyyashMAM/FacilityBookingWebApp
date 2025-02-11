@@ -1,0 +1,82 @@
+/* Auth.css - Updated with Background Image & Styling */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../assets/signup.jpg') no-repeat center center/cover;
+    backdrop-filter: blur(5px);
+}
+
+/* Transparent Glassmorphism Effect */
+.auth-box {
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Title Styles */
+.auth-box h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Fields */
+.auth-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.auth-box input::placeholder {
+    color: #ddd;
+}
+
+/* Button Styling */
+.auth-box button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.auth-box button:hover {
+    background: linear-gradient(90deg, #00c6ff, #007bff);
+    transform: scale(1.05);
+}
+
+/* Links */
+.auth-links {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.auth-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
